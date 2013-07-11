@@ -1,9 +1,9 @@
 <?php
 header('Content-Type: text/html; charset=UTF-8');
 
-#应用key
+#搴旂敤key
 define( "WB_AKEY" , '3237955472' );
-#安全key
+#瀹夊叏key
 define( "WB_SKEY" , '77d554b65ea54d1990abb56fce8d67a0' );
-#定义回调页面
+#瀹氫箟鍥炶皟椤甸潰
 define( "WB_CALLBACK_URL" , 'http://192.168.235.90/Competition_Computer/callback.php' );
