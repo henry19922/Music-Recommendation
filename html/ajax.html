@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+  <title> New Document </title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <script type="text/javascript" src="js/ajax.js"></script>
+ <script language="javascript">
+ /**
+	ajax的示范
+ */
+   var ajax=new Ajax();
+   var cont1='吴烈思';
+   ajax.post('http://localhost/Competition_Computer/classify.php','cont=吴烈思',function(data){   
+	 //cont是指post到后台之后，后台使用$_POST['cont'] 来接受值
+	//data是指后台返回的数据，可以使用innerhTML 来显示data的值	
+	// url是php页面链接，data是返回数据存的地方
+		alert(data);
+   });
+</script>
+ </head>
+ <body>
+  
+ </body>
+</html>

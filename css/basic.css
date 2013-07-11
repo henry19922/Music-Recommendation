@@ -1,0 +1,133 @@
+@CHARSET "UTF-8";
+
+#tl_container,#containertop
+{
+width:840px; 
+margin:0 auto;
+position:absolute;
+ }
+.item
+ {
+width: 384px;
+margin: 50px 10px 10px 10px;
+padding:5px;
+float: left;
+background-color:#ffffff;
+border:solid 1px #B4BBCD;
+min-height:50px;
+text-align:justify;
+word-wrap:break-word; 
+border-radius:8px;
+/*实现透明*/
+filter:alpha(Opacity=80);-moz-opacity:0.5;opacity: 0.7;z-index:100; 
+}
+.timeline_container
+{
+width: 16px;
+text-align: center;
+margin: 0 auto;
+cursor:pointer;
+display: block;
+}
+.timeline
+{
+margin: 0 auto;
+background:#69b557;
+display: block;
+float: left;
+height: 100%;
+left: 414px;
+margin-top: 10px;
+position: absolute;
+width: 5px;
+}
+.timeline:hover
+{
+cursor: pointer;
+margin: 0 auto;
+}
+.timeline div.plus
+{
+top: 80px; 
+background-image: url(); 
+margin-left: 1px; 
+background-position: initial initial; 
+background-repeat: initial initial;
+width: 14px;
+height: 14px;
+position: relative;
+left: -6px;
+}
+.rightCorner
+ { 
+background: url(../pic/right.png);
+display: block;
+height: 15px;
+margin-left: 389px;
+margin-top: 8px;
+padding: 0;
+vertical-align: top;
+width: 13px;
+z-index:2;
+position: absolute;
+}
+.leftCorner
+{
+background: url(../pic/left.png);
+display: block;
+height: 15px;
+width: 13px;
+margin-left: -18px;
+margin-top: 8px;
+position: absolute;
+z-index:2;
+}
+/*#popup
+{ 
+width: 408px;
+float: left;
+margin-top:10px;
+background-color:#ffffff;
+border:solid 1px #A9B6D2;
+min-height:60px;
+display:none;
+position:absolute;
+margin:10px;
+}
+#update_button 
+{
+background-color: #cc0000;
+color: white;
+font-weight: bold;
+padding: 5px;
+border: solid 1px #333;
+margin-top: 5px;
+cursor: pointer;
+}
+.shade
+{
+box-shadow:0px 0px 18px #000;
+-moz-box-shadow:0px 0px 18px #000;
+-webkit-box-shadow:0px 0px 18px #000
+}
+.Popup_rightCorner
+{
+background:url(../images/left.png) ;
+display: block;
+height: 15px;
+margin-left: 408px;
+margin-top: 8px;
+padding: 0;
+vertical-align: top;
+width: 13px;
+z-index:2;
+position: absolute;
+}
+#update
+{
+width:100%;
+}
+#box
+{
+padding:8px;
+}*/

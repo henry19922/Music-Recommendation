@@ -1,0 +1,75 @@
+html,body,address,blockquote,div,dl,form,h1,h2,h3,h4,h5,h6,ol,p,pre,table,ul,dd,dt,li,tbody,td,tfoot,th,thead,tr,button,del,ins,map,object,a,abbr,acronym,b,bdo,big,br,cite,code,dfn,em,i,img,kbd,q,samp,small,span,strong,sub,sup,tt,var,legend,fieldset
+	{
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+html {
+	height: 100%;
+}
+
+body {
+	font-family: Verdana,Arial,Helvetica;;
+	font-size: 14px;
+	margin: 0;
+	height: 100%;
+}
+
+.container {
+	margin: 0 auto;
+	width: 900px;
+	height: 100%;
+	background-attachment: fixed;
+}
+
+
+
+.menu {
+	height: 30px;
+	margin-bottom: 5px;
+	border: 1px dashed #fff;
+	line-height: 30px;
+	color: #FFF;
+	text-indent: 2em;
+}
+
+.mainContent {
+	border: 1px dashed #fff;
+}
+
+.content {
+	margin: 70px auto 0 15px;
+	width: 620px;
+	height: 100%;
+	float: left;
+}
+
+.more {
+	float:right;
+	color: #5093ff;
+	font-size: 18px;
+	display: inline;
+	line-height: 32px;
+	background: url(../pic/spinner.png) no-repeat;
+	padding-left:25px;
+	margin-bottom:5px;
+	margin-right:30px;
+}
+
+.clearfix:after,.clearfix:before {
+	content: "";
+	display: table
+}
+
+.clearfix:after {
+	clear: both;
+	overflow: hidden
+}
+
+.clearfix {
+	zoom: 1;
+}

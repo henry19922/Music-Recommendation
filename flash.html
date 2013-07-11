@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+		<meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>Slideshow with jmpress.js</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Slideshow with jmpress.js" />
+        <meta name="keywords" content="jmpress, slideshow, container, plugin, jquery, css3" />
+        <meta name="author" content="for Codrops" />
+        <link rel="shortcut icon" href="../favicon.ico"> 
+		<link href='others/font.woff' rel='stylesheet' type='text/css'>
+		<link href='others/gk5FxslNkTTHtojXrkp-xF1YPouZEKgzpqZW9wN-3Ek.woff' rel='stylesheet' type='text/css'>
+		<link href='others/gk5FxslNkTTHtojXrkp-xONSK5BxN3NFS4EJkViHIqo.woff' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style_alt.css" />
+		<!--[if lt IE 9]>
+		<link rel="stylesheet" type="text/css" href="css/style_ie.css" />
+		<![endif]-->
+		<!-- jQuery -->
+		<script type="text/javascript" src="js/jquery7.js"></script>
+		<!-- jmpress plugin -->
+		<script type="text/javascript" src="js/jmpress.js"></script>
+		<!-- jmslideshow plugin : extends the jmpress plugin -->
+		<script type="text/javascript" src="js/jquery.jmslideshow.js"></script>
+		<script type="text/javascript" src="js/modernizr.custom.48780.js"></script>
+		<noscript>
+			<style>
+			.step {
+				width: 100%;
+				position: relative;
+			}
+			.step:not(.active) {
+				opacity: 1;
+				filter: alpha(opacity=99);
+				-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(opacity=99)";
+			}
+			.step:not(.active) a.jms-link{
+				opacity: 1;
+				margin-top: 40px;
+			}
+			</style>
+		</noscript>
+    </head>
+    <body>
+        <div class="container">
+			<section id="jms-slideshow" class="jms-slideshow">
+				<div class="step" data-color="color-3" data-x="2000" data-y="1500" data-z="1000" data-rotate="20">
+					<div class="jms-content">
+						<h3>情感趋势折线图</h3>
+						<p><br>直观呈现最近20条微博的<br>情感趋势，总共7个分类<br></p>
+						<a class="jms-link" href="content.php">跳过说明</a>
+					</div>
+					<img src="pic/zhexiantudetail.png" />
+				</div>
+				<div class="step" data-color="color-4" data-x="3000" data-y="2000">
+					<div class="jms-content">
+						<h3>情感比例饼状图</h3>
+						<p><br>
+							轻松把握生活的喜怒哀乐<br><br>
+							</p>
+						<a class="jms-link" href="content.php">跳过说明</a>
+					</div>
+					<img src="pic/bingtu.png" />
+				</div>
+				<div class="step" data-color="color-5" data-x="4000" data-y="1500" data-z="1000" data-rotate="-20">
+					<div class="jms-content">
+						<h3>音乐推荐</h3>
+						<p><br>
+						选歌播放，操作简单<br>
+						音乐畅听，一路好心情</p>
+						<a class="jms-link" href="content.php">跳过说明</a>
+					</div>
+					<img src="pic/musiclist.png" />
+				</div>
+				<div class="step" data-color="color-1" data-x="2000" data-y="1000" data-z="3000" data-rotate="-20">
+					<div class="jms-content">
+						<h3>微博列表</h3>
+						<p><br>
+							博文回顾&nbsp;品味生活
+							<br><br></p>
+						<a class="jms-link" href="content.php">开始体验</a>
+					</div>
+					<img src="pic/weibolist2.png" />
+				</div>
+			</section>
+        </div>
+		<script type="text/javascript">
+			$(function() {
+				$( '#jms-slideshow' ).jmslideshow();
+				
+			});
+		</script>
+    </body>
+</html>
